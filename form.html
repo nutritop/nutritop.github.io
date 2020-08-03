@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nutritop</title>
+<link rel="stylesheet" type="text/css" href="public/bulma.css">
+<link rel="stylesheet" type="text/css" href="public/style.css">
+<link rel="stylesheet" type="text/css" href="public/style_mobile.css" media="only screen and (max-width: 960px)">
+
+<link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@3.4.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <a href="./" id="home">
+        <img src="public/images/favicon.ico">
+    </a>
+
+    <section id="start" class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="content fw vert">
+                <div class="fw">
+                        <p class="_title prim">
+                                Interesse? Vul dan onderstaande vragenlijst in voor meer informatie.
+                            </p>
+                    <form class="fw rowing vert" action="https://formspree.io/annouschka.defenin@telenet.be" method="POST">
+                        <div class="anim card aleft no-margin-top">
+                            <div class="card-content no-padding-top">
+
+                            <p class="no-margin-top">
+                                Wat doet u momenteel?
+                            </p>
+                            <div class="field"><div class="control prim">
+                                <input class="input prim" name="werk" type="text" placeholder="Job">
+                            </div></div>
+
+                            <p>Welke voordelen zou u voor uzelf zien in werken van thuis uit?</p>
+                            <div class="fw grid">
+                                <div style="align-self: start;"><label><label><input class="checkbox" type="checkbox" name="aanvullend inkomen"/>Aanvullend inkomen</label></label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="zelf werktijden bepalen">Zelf werktijden bepalen</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Geen opgelegde werkdruk">Geen opgelegde werkdruk</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Werken rondom het gezin">Werken rondom het gezin</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Geen reistijden">Geen reistijden</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Meer tijd voor het gezin">Meer tijd voor het gezin</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Samenwerken met partner">Samenwerken met partner</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Een eigen bedrijf">Een eigen bedrijf</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Geen kinderopvang nodig">Geen kinderopvang nodig</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Zelf inkomen bepalen">Zelf inkomen bepalen</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Eigen baas zijn">Eigen baas zijn</label></div>
+                            </div>
+                            <p>Hoeveel wilt u maandelijks (bij)verdienen?</p>
+                            <div class="field"><div class="control prim">
+                                <input class="input prim" name="estimated earning" type="text" placeholder="Salaris">
+                            </div></div>
+                            <p>Uw interesse gaat momenteel uit naar:</p>
+                            <div class="fw grid">
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Bijverdienste">Bijverdienste</label></div>
+                                <div style="align-self: start;"><label><input class="checkbox" type="checkbox" name="Eigen bedrijf van thuis uit">Eigen bedrijf van thuis uit</label></div>
+                            </div>
+                            <p>Wat is uw motivatie om van thuis uit te werken?</p>
+                            <div class="field"><div class="control prim">
+                                <input class="input prim" name="motivatie" type="text" placeholder="Motivatie">
+                            </div></div>
+                            <p>Kent u de Herbalife voeding? Zo ja, op welke manier?</p>
+                            <div class="field"><div class="control prim">
+                                <input class="input prim" name="kent u herbalife?" type="text" placeholder="Kent u Herbalife voeding?">
+                            </div></div>
+
+                            <p>Contact gegevens</p>
+                            <div class="field"><div class="control prim">
+                                    <input class="input prim" name="name" type="text" placeholder="Naam en voornaam">
+                            </div></div>
+                            <div class="field"><div class="control prim">
+                                    <input class="input prim" name="_replyto" type="text" placeholder="E-Mail">
+                            </div></div>
+                            <div class="field"><div class="control prim">
+                                <input class="input prim" name="leeftijd" type="text" placeholder="Leeftijd">
+                            </div></div>
+                            <div class="field"><div class="control prim">
+                                    <input class="input prim" name="Telefoonnummer" type="text" placeholder="Telefoonnummer">
+                            </div></div>
+                            <div class="field"><div class="control prim">
+                                    <input class="input prim" name="Woonplaats" type="text" placeholder="Woonplaats">
+                            </div></div>
+
+
+                            <input class="link no-margin-top mbutton" type="submit" value="Stuur!">
+</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
